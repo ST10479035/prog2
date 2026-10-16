@@ -3,7 +3,7 @@
     public record RegisterDto(string Name, string Surname, string Email, string Password, int RoleId);
     public record LoginDto(string Email, string Password);
     public record AuthResponseDto(string Token, int UserId, string Email, string Role);
-
+     
     public record UserProfileDto(int UserId, string Name, string Surname, string Email, string Role);
     public record UpdateProfileDto(string Name, string Surname);
 
