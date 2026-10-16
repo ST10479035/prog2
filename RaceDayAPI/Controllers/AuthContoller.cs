@@ -15,6 +15,7 @@ namespace RaceDayAPI.Controllers
             _authService = authService;
         }
 
+        
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDto dto)
         {
