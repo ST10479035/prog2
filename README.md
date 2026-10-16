@@ -29,6 +29,13 @@ A robust, enterprise-grade RESTful API backend built with **ASP.NET Core 8**, **
 ### **1. Prerequisites**
 * [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) installed on your machine.
 * Microsoft SQL Server or SQL Server Express running locally.
+## 🟢 CI/CD Pipeline Status & Screenshots
+
+### Automated Build & Test Status
+[![RaceDayAPI CI](https://github.com/ST10479035/prog2/actions/workflows/ci.yml/badge.svg)](https://github.com/ST10479035/prog2/actions/workflows/ci.yml)
+
+### Successful Workflow Execution
+![CI/CD Build Passing](./ci-build.png)
 
 ### **2. Clone the Repository**
 ```bash
