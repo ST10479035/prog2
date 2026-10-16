@@ -9,7 +9,7 @@ namespace RaceDayAPI.Models
         [Key]
         [Column("user_id")]
         public int UserId { get; set; }
-
+        
         [Required]
         [Column("role_id")]
         public int RoleId { get; set; }
