@@ -18,7 +18,7 @@ namespace RaceDayAPI.Models
         [MaxLength(255)]
         [Column("description")]
         public string? Description { get; set; }
-
+        
         public ICollection<Event> Events { get; set; } = new List<Event>();
     }
 }
